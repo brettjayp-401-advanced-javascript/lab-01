@@ -1,3 +1,7 @@
+# LAB-02
+## LAB: Classes, Inheritance, Functional Programming
+## Brett Packard
+
 # LAB: Node Ecosystem
 
 Time to get hands on with Test Driven Development (TDD) and Continuous Integration (CI). For this lab, you will be writing a fully tested validation module and shepherd it through a CI pipeline.
