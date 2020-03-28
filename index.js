@@ -3,11 +3,13 @@
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
 
-let parsedInput = new Input(process.argv.slice(2));
+let input = process.argv.slice(2);
+let parsedInput = new Input(input);
 let notes = new Notes(parsedInput);
 
-console.log(parsedInput);
-console.log(notes);
+console.log('input', input);
+console.log('parsedInput', parsedInput);
+console.log('notes', notes);
 
 /*
   - Requires the library files wyou will be writing (input, notes)
