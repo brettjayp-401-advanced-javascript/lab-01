@@ -1,6 +1,6 @@
 'use strict';
 
-const inputjs = require('../lib/input.js');
+const Input = require('../lib/input.js');
 
 // describe
 // it
@@ -16,7 +16,7 @@ const badInputB = ['WRONG'];
 // command line input has wrong flag
 const badInputC = ['-b', 'WRONG'];
 // data is not formatted properly (must be in a string format)
-const badInputD = ['-a', 'false'];
+const badInputD = ['-a', false];
 
 // Good input:
 // commane line input with '-a' followed by a string
