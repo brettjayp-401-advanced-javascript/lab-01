@@ -1,0 +1,19 @@
+{
+    "name": "lab-01-pair",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --verbose --coverage",
+        "start": "node index.js",
+        "valid": "node index.js -a 'string'",
+        "lint": "eslint '**/*.js'"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^25.1.0",
+        "minimist": "^1.2.5",
+        "sinon": "^9.0.1"
+    }
+}
