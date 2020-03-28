@@ -39,5 +39,5 @@ describe('the module handles good input gracefully', () => {
   it('handles good input for -a flag', () => {
     let result = new Input(goodInputA);
     expect(result.valid()).toBeTruthy();
-  })
-})
+  });
+});

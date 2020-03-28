@@ -6,7 +6,8 @@ const Notes = require('./lib/notes.js');
 let parsedInput = new Input(process.argv.slice(2));
 let notes = new Notes(parsedInput);
 
-// console.log(parsedInput);
+console.log(parsedInput);
+console.log(notes);
 
 /*
   - Requires the library files wyou will be writing (input, notes)
